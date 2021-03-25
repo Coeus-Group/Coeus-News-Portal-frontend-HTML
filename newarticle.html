@@ -16,9 +16,7 @@
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
     <!-- Our styles for this template -->
-    <link rel="stylesheet" href="assets\css\style.css">
-    <!-- Custom styles for this template -->
-    <link href="assets\css\carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Bootstrap core CSS -->
 </head>
@@ -46,34 +44,36 @@
                         </li>
                     </ul>
 
-                    <button class="btn btn-outline-success" type="submit"><a href="index.html" </a>Signout</button>
+                    <button class="btn btn-outline-success" type="submit"><a href="#" </a>Logout</button>
 
                 </div>
             </div>
         </nav>
     </header>
-
-    <form>
-        <div class="form-newarticle1">
-            <label for="Title">Article Title</label>
-            <input type="text" class="form-control">
-        </div>
-        <div class="form-newarticle">
-            <label for="Notes">Article Notes</label>
-            <input type="text" class="form-control">
-        </div>
-        <div class="form-newarticle">
-            <label for="Note">Article Content (doc/pdf/text) files</label>
-            <input type="file" class="form-control-file">
-        </div>
-        <div class="form-newarticle">
-            <label for="Images,Videos ">Article Images/Videos (doc/pdf/text) files</label>
-            <input type="file" class="form-control-file">
-        </div>
-        <div class="form-newarticle">
-            <button class="submitbtn btn btn-outline-success" type="submit" formaction="dashboard.html">Submit</button>
-        </div>
-    </form>
+    <main class="article-main">
+        <form>
+            <div class="form-newarticle">
+                <label for="Title">Article Title</label>
+                <input type="text" class="form-title">
+            </div>
+            <div class="form-newarticle">
+                <label for="Notes">Article Notes</label>
+                <input type="text" class="form-Notes">
+            </div>
+            <div class="form-newarticle">
+                <label for="Note">Article Content (doc/pdf/text) files</label>
+                <input type="file" class="form-file-txt">
+            </div>
+            <div class="form-newarticle">
+                <label for="Images,Videos ">Article Images/Videos files</label>
+                <input type="file" class="form-file-media">
+            </div>
+            <div class="form-newarticle">
+                <button class="submitbtn btn btn-outline-success" type="submit"
+                    formaction="dashboard.html">Submit</button>
+            </div>
+        </form>
+    </main>
 
 </body>
 

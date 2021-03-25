@@ -4,6 +4,19 @@ body {
 }
 form {border: 3px solid whitesmoke;}
 
+main{
+  margin-top: 60px;
+}
+
+.article-main{
+  margin-top: 80px;
+  width: 80%
+}
+
+.form-newarticle{
+  margin-top: 25px;
+}
+
 .form-signin input[type="email"] {
   margin-bottom: 20px;
   border-bottom-right-radius: 0;
@@ -30,7 +43,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 40%;
+  width: 20%;
   border-radius: 12px;
   font-size: 16px
 }
