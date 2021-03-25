@@ -12,9 +12,11 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <!-- Our styles for this template -->
     <link rel="stylesheet" href="assets\css\style.css">
     <!-- Custom styles for this template -->
@@ -119,18 +121,17 @@
                         <h1 class="h2">Articles Dashboard</h1>
                         <div class="btn-toolbar mb-2 mb-md-0">
                             <div class="btn-group me-2">
-                                <button type="button" class="btn btn-sm btn-outline-secondary"
-                                    formaction="newarticle.html">Create New
-                                    Articles</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary"> <a
+                                        href="newarticle.html">Create New
+                                        Articles</a></button>
                             </div>
                         </div>
                     </div>
                     <h2>Current Articles</h2>
-                    <div class="table-responsive my-4 w-100">
-                        <table class="table table-striped table-sm">
+                    <div class="table-responsive table-condensed my-4 w-100">
+                        <table class="rwd-table table-striped table-responsive table-condensed table-sm">
                             <thead>
                                 <tr>
-                                    <th>#</th>
                                     <th>Title</th>
                                     <th>Publishing Date</th>
                                     <th>Published Externally?</th>
@@ -139,50 +140,51 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
                                     <td>Politics latest news: Queen pays tribute to 'grief and loss felt by so many' on
                                         anniversary of lockdown</td>
                                     <td>23-March-2021</td>
                                     <td>Yes</td>
-                                    <td><button class="edit-button">Edit Article</button> <button
-                                            class="edit-button">Delete Article</button><button class="edit-button">Send
-                                            for Approval</button></td>
+                                    <td>
+                                        <a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
                                     <td>Angela Merkel backs EU threat of vaccine ban as Germany lockdown extended</td>
                                     <td>23-March-2021</td>
                                     <td>Yes</td>
-                                    <td><button class="edit-button">Edit Article</button> <button
-                                            class="edit-button">Delete Article</button><button class="edit-button">Send
-                                            for Approval</button></td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>3</td>
                                     <td>Coronavirus lockdown one year on: Ten reasons why so many Britons have died</td>
                                     <td>23-March-2021</td>
                                     <td>Yes</td>
-                                    <td><button class="edit-button">Edit Article</button> <button
-                                            class="edit-button">Delete Article</button><button class="edit-button">Send
-                                            for Approval</button></td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>4</td>
                                     <td>Key to how universe works may have been discovered</td>
                                     <td>23-March-2021</td>
                                     <td>Yes</td>
-                                    <td><button class="edit-button">Edit Article</button> <button
-                                            class="edit-button">Delete Article</button><button class="edit-button">Send
-                                            for Approval</button></td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>5</td>
                                     <td>Travel news latest: Foreign holiday ban extended to July</td>
                                     <td>23-March-2021</td>
                                     <td>Yes</td>
-                                    <td><button class="edit-button">Edit Article</button> <button
-                                            class="edit-button">Delete Article</button><button class="edit-button">Send
-                                            for Approval</button></td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -190,10 +192,9 @@
 
                     <h2>Past Articles</h2>
                     <div class="table-responsive my-4 w-100">
-                        <table class="table table-striped table-sm">
+                        <table class="table table-striped table-responsive table-condensed table-sm">
                             <thead>
                                 <tr>
-                                    <th>#</th>
                                     <th>Title</th>
                                     <th>Publishing Date</th>
                                     <th>Published Externally?</th>
@@ -202,50 +203,50 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
                                     <td>Politics latest news: Queen pays tribute to 'grief and loss felt by so many' on
                                         anniversary of lockdown</td>
                                     <td>21-March-2021</td>
                                     <td>Yes</td>
-                                    <td><button class="edit-button">Edit Article</button> <button
-                                            class="edit-button">Delete Article</button><button class="edit-button">Send
-                                            for Approval</button></td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
                                     <td>Angela Merkel backs EU threat of vaccine ban as Germany lockdown extended</td>
                                     <td>22-March-2021</td>
                                     <td>Yes</td>
-                                    <td><button class="edit-button">Edit Article</button> <button
-                                            class="edit-button">Delete Article</button><button class="edit-button">Send
-                                            for Approval</button></td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>3</td>
                                     <td>Coronavirus lockdown one year on: Ten reasons why so many Britons have died</td>
                                     <td>20-March-2021</td>
                                     <td>Yes</td>
-                                    <td><button class="edit-button">Edit Article</button> <button
-                                            class="edit-button">Delete Article</button><button class="edit-button">Send
-                                            for Approval</button></td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>4</td>
                                     <td>Key to how universe works may have been discovered</td>
                                     <td>18-March-2021</td>
                                     <td>Yes</td>
-                                    <td><button class="edit-button">Edit Article</button> <button
-                                            class="edit-button">Delete Article</button><button class="edit-button">Send
-                                            for Approval</button></td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>5</td>
                                     <td>Travel news latest: Foreign holiday ban extended to July</td>
                                     <td>19-March-2021</td>
                                     <td>Yes</td>
-                                    <td><button class="edit-button">Edit Article</button> <button
-                                            class="edit-button">Delete Article</button><button class="edit-button">Send
-                                            for Approval</button></td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
