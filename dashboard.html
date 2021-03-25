@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Telegraph News Portal</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Our styles for this template -->
+    <link rel="stylesheet" href="assets\css\style.css">
+    <!-- Custom styles for this template -->
+    <link href="assets\css\carousel.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <img src="images/logo.jpeg" alt="Logo" style="width:50px;height:50px;">
+                <a class="navbar-brand" href="#">Telegraph News Portal</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dashboard.html">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+
+                    <button class="btn btn-outline-success" type="submit"><a href="#"></a>Signout</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                    <div class="position-sticky pt-3">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    <span data-feather="home"></span>
+                                    Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="file"></span>
+                                    Orders
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="shopping-cart"></span>
+                                    My Articles
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="shopping-cart"></span>
+                                    Approved Articles
+                                </a>
+                            </li>
+                        </ul>
+                        <h6
+                            class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                            <span>Archived Articles</span>
+                            <a class="link-secondary" href="#" aria-label="Add a new report">
+                                <span data-feather="plus-circle"></span>
+                            </a>
+                        </h6>
+                        <ul class="nav flex-column mb-2">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="file-text"></span>
+                                    Current month
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="file-text"></span>
+                                    Last quarter
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+
+                <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                    <div
+                        class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                        <h1 class="h2">Articles Dashboard</h1>
+                        <div class="btn-toolbar mb-2 mb-md-0">
+                            <div class="btn-group me-2">
+                                <button type="button" class="btn btn-sm btn-outline-secondary"> <a
+                                        href="newarticle.html">Create New
+                                        Articles</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>Current Articles</h2>
+                    <div class="table-responsive table-condensed my-4 w-100">
+                        <table class="rwd-table table-striped table-responsive table-condensed table-sm">
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Publishing Date</th>
+                                    <th>Published Externally?</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Politics latest news: Queen pays tribute to 'grief and loss felt by so many' on
+                                        anniversary of lockdown</td>
+                                    <td>23-March-2021</td>
+                                    <td>Yes</td>
+                                    <td>
+                                        <a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Angela Merkel backs EU threat of vaccine ban as Germany lockdown extended</td>
+                                    <td>23-March-2021</td>
+                                    <td>Yes</td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Coronavirus lockdown one year on: Ten reasons why so many Britons have died</td>
+                                    <td>23-March-2021</td>
+                                    <td>Yes</td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Key to how universe works may have been discovered</td>
+                                    <td>23-March-2021</td>
+                                    <td>Yes</td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Travel news latest: Foreign holiday ban extended to July</td>
+                                    <td>23-March-2021</td>
+                                    <td>Yes</td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h2>Past Articles</h2>
+                    <div class="table-responsive my-4 w-100">
+                        <table class="rwd-table table-striped table-responsive table-condensed table-sm">
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Publishing Date</th>
+                                    <th>Published Externally?</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Politics latest news: Queen pays tribute to 'grief and loss felt by so many' on
+                                        anniversary of lockdown</td>
+                                    <td>21-March-2021</td>
+                                    <td>Yes</td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Angela Merkel backs EU threat of vaccine ban as Germany lockdown extended</td>
+                                    <td>22-March-2021</td>
+                                    <td>Yes</td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Coronavirus lockdown one year on: Ten reasons why so many Britons have died</td>
+                                    <td>20-March-2021</td>
+                                    <td>Yes</td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Key to how universe works may have been discovered</td>
+                                    <td>18-March-2021</td>
+                                    <td>Yes</td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Travel news latest: Foreign holiday ban extended to July</td>
+                                    <td>19-March-2021</td>
+                                    <td>Yes</td>
+                                    <td><a class="btn" href="#"><i class="fa fa-edit"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-trash"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-check"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </main>
+
+
+                <!-- FOOTER -->
+                <footer class="container bg-dark">
+                    <p class="float-end"><a href="#">Back to top</a></p>
+                    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+                    </p>
+                </footer>
+
+                <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    </main>
+</body>
+
+
+</html>
