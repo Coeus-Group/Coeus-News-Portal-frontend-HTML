@@ -1,10 +1,10 @@
-body {
+.body-dbpg {
   font-family: Arial, Helvetica, sans-serifx;
   background-color :white;
 }
-form {border: 3px solid whitesmoke;}
+.form-article {border: 3px solid whitesmoke;}
 
-main{
+.main-dbpg{
   margin-top: 60px;
 }
 
@@ -36,8 +36,8 @@ main{
   margin: auto;
 }
 
-button {
-  background-color: #4c77af;
+.btn-dbpg {
+  background-color: rgba(68, 109, 84, 0.467);
   color:whitesmoke;
   padding: 14px 20px;
   margin: 8px 0;
@@ -48,7 +48,7 @@ button {
   font-size: 16px
 }
 
-button:hover {
+btn-dbpg:hover {
   opacity: 0.8;
 }
 
