@@ -45,34 +45,33 @@
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-                        <button class="btn btn-outline-success" type="submit" formaction="index.html">Signout</button>
-                    </form>
+
+                    <button class="btn btn-outline-success" type="submit"><a href="index.html" </a>Signout</button>
+
                 </div>
             </div>
         </nav>
     </header>
 
     <form>
-        <div class="form-group">
-            <label for="formGroupExampleInput">Article Title</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+        <div class="form-newarticle1">
+            <label for="Title">Article Title</label>
+            <input type="text" class="form-control">
         </div>
-        <div class="form-group">
-            <label for="formGroupExampleInput2">Article Notes</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+        <div class="form-newarticle">
+            <label for="Notes">Article Notes</label>
+            <input type="text" class="form-control">
         </div>
-        <div class="form-group">
-            <label for="exampleFormControlFile1">Article Content (doc/pdf/text) files</label>
-            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        <div class="form-newarticle">
+            <label for="Note">Article Content (doc/pdf/text) files</label>
+            <input type="file" class="form-control-file">
         </div>
-        <div class="form-group">
-            <label for="exampleFormControlFile1">Article Images/Videos (doc/pdf/text) files</label>
-            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        <div class="form-newarticle">
+            <label for="Images,Videos ">Article Images/Videos (doc/pdf/text) files</label>
+            <input type="file" class="form-control-file">
         </div>
-        <div class="form-group">
-            <button class="btn btn-outline-success" type="submit" formaction="dashboard.html">Submit</button>
+        <div class="form-newarticle">
+            <button class="submitbtn btn btn-outline-success" type="submit" formaction="dashboard.html">Submit</button>
         </div>
     </form>
 
