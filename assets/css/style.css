@@ -1,12 +1,3 @@
-/* ------------------------------Start of the styling for the index page ----------------------------------------- */
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-}
-
 /* Size of image placeholder in Recent Stories section */
 .home-newsthumbnail img{
 width: 100%;
@@ -21,7 +12,6 @@ font-family: Merriweather;
 MARGIN-TOP: -32PX;
 color: black
 
-}
 /* Logo text */
 .navbar-brand {
 color: #fff;
