@@ -37,6 +37,7 @@ margin-inline-start: 14px;
 
 /*------------------------------ End of the styling for the index page------------------------------------ */
 
+/* Dashboard Styles*/
 .body-dbpg {
   font-family: Arial, Helvetica, sans-serifx;
   background-color :white;
@@ -56,6 +57,25 @@ margin-inline-start: 14px;
   margin-top: 25px;
 }
 
+.form-signin input[type="email"] {
+  margin-bottom: 20px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
 .btn-dbpg {
   background-color: rgba(68, 109, 84, 0.467);
   color:whitesmoke;
@@ -71,3 +91,5 @@ margin-inline-start: 14px;
 btn-dbpg:hover {
   opacity: 0.8;
 }
+
+/* Dashboard Styles*/
