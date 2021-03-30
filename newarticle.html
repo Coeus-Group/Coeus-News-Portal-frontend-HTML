@@ -44,36 +44,68 @@
                         </li>
                     </ul>
 
-                    <button class="btn btn-outline-success" type="submit"><a href="#"> </a>Logout</button>
+                    <button class="btn-dbpg btn-sm btn-primary" type="submit"><a href="#"> </a>Logout</button>
 
                 </div>
             </div>
         </nav>
     </header>
     <main class="article-main">
-        <form class="form-article">
-            <div id="Title" class="form-newarticle">
-                <label for="Title">Article Title</label>
-                <input type="text" class="form-title">
-            </div>
-            <div id="Notes" class="form-newarticle">
-                <label for="Notes">Article Notes</label>
-                <input type="text" class="form-Notes">
-            </div>
-            <div id="Content"  class="form-newarticle">
-                <label for="Content">Article Content (doc/pdf/text) files</label>
-                <input type="file" class="form-file-txt">
-            </div>
-            <div id="Images-Videos" class="form-newarticle">
-                <label for="Images-Videos">Article Images/Videos files</label>
-                <input type="file" class="form-file-media">
-            </div>
-            <div class="form-newarticle">
-                <button class="submitbtn btn btn-outline-success" type="submit"
-                    formaction="dashboard.html">Submit</button>
-            </div>
-        </form>
+        <div class="container-fluid">
+            <form class="form-article">
+                <div class="container-newarticle">
+                    <form action="action_page.php">
+                        <div class="row-newarticle">
+                            <div class="col-25-newarticle">
+                                <label for="title">Article Title</label>
+                            </div>
+                            <div class="col-75-newarticle">
+                                <input type="text" id="title" name="articletitle" placeholder="Your title..">
+                            </div>
+                        </div>
+                        <div class="row-newarticle-newarticle">
+                            <div class="col-25-newarticle">
+                                <label for="notes">Article Notes</label>
+                            </div>
+                            <div class="col-75-newarticle">
+                                <textarea id="notes" name="notes" placeholder="Comments.."
+                                    style="height:200px"></textarea>
+                            </div>
+                        </div>
+                        <div class="row-newarticle">
+                            <div class="col-25-newarticle">
+                                <label for="notes">Article Text Content</label>
+                            </div>
+                            <div class="col-75-newarticle">
+                                <input type="file" class="form-file-txt">
+                            </div>
+                        </div>
+                        <div class="row-newarticle">
+                            <div class="col-25-newarticle">
+                                <label for="notes">Article Media Content</label>
+                            </div>
+                            <div class="col-75-newarticle">
+                                <input type="file" class="form-file-txt">
+                            </div>
+                        </div>
+                        <div class="row-newarticle">
+                            <div class="form-newarticle">
+                                <button class="btn-submit btn-sm btn-primary" type="submit"
+                                    formaction="dashboard.html">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </form>
+        </div>
     </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-newarticle bg-dark">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+        </p>
+    </footer>
 
 </body>
 
