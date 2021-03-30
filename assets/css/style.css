@@ -15,11 +15,37 @@ body {
   border-top-right-radius: 0;
 }
 
-.form-signin {
-  width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: auto;
+/* Recent Stories header for home page */
+.recent-stories{
+text-align: center;
+font-family: Merriweather;
+MARGIN-TOP: -32PX;
+color: black
+
+/* Logo text */
+.navbar-brand {
+color: #fff;
+font-family: Merriweather;
+margin-inline-start: 14px;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/*------------------------------ End of the styling for the index page------------------------------------ */
+
+/* Dashboard Styles*/
+.body-dbpg {
+  font-family: Arial, Helvetica, sans-serifx;
+  background-color :white;
+}
+.form-article {border: 3px solid whitesmoke;}
+
+.main-dbpg{
+  margin-top: 60px;
 }
 
 .form-signin button {
