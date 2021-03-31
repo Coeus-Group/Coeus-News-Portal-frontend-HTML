@@ -192,4 +192,20 @@ btn-dbpg:hover {
   margin: auto;
 }
 
-/* Login Page Styles*/
+.btn-dbpg {
+  background-color: rgba(68, 109, 84, 0.467);
+  color:whitesmoke;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  border-radius: 12px;
+  font-size: 16px
+}
+
+btn-dbpg:hover {
+  opacity: 0.8;
+}
+
+/*----------------------------------------------Dashboard Styles--------------------------------------------------------*/
