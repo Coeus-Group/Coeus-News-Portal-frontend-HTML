@@ -93,16 +93,3 @@ btn-dbpg:hover {
 }
 
 /* Dashboard Styles*/
-/* login Styles */
-.form-signin button {
-  background-color: #4C77AF;
-  color:whitesmoke;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 40%;
-  border-radius: 12px;
-  font-size: 16px
-}
-/* login Styles */
